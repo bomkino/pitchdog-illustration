@@ -34,4 +34,6 @@ jobs:
       - name: Verify twin archives
         run: |
           cmp dist/pitchdog-illustration.zip dist/pitchdog-illustration.skill
+          cmp dist/pitchdog-illustration-full.zip dist/pitchdog-illustration-full.skill
+          test "$(wc -c < dist/pitchdog-illustration.zip)" -lt 25000000
           (cd dist && sha256sum -c SHA256SUMS)
