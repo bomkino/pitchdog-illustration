@@ -1,0 +1,45 @@
+name: Illustration quality failure
+description: Report a repeatable routing, metaphor, identity, QA, or provenance failure.
+title: "[failure] "
+labels: [quality]
+body:
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt or task
+      description: Remove private photos, paths, prompts, and account data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected judgment
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual failure
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Routing or mutation boundary
+        - Metaphor or soul
+        - Human identity
+        - Dog identity or anatomy
+        - Group relationship
+        - Visual law
+        - Website placement
+        - Status or provenance
+        - Rights or privacy
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
+      description: Link only material you have the right to share publicly.

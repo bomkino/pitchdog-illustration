@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "skill": "pitchdog-illustration",
+  "evaluation_method": "Inspect mode routing, reference authority, metaphor physics, identity, visual-law constraints, mutation boundaries, full-size QA, status truth, rights, and provenance. Surface resemblance or a successful generation receipt never passes alone.",
+  "cases": [
+    {
+      "id": "explicit-create",
+      "prompt": "Use $pitchdog-illustration to make one new image for this approved website paragraph.",
+      "expected_mode": "create",
+      "must": ["recover the exact narrative job", "scan approved collisions", "write a metaphor field", "generate one candidate", "inspect at full size"],
+      "must_not": ["apply a generic pastel prompt", "batch variants", "claim owner acceptance"],
+      "failure_caught": "Explicit trigger produces surface mimicry instead of the complete workflow"
+    },
+    {
+      "id": "unrelated-nontrigger",
+      "prompt": "Draw a photorealistic botanical plate for an unrelated museum project.",
+      "expected_mode": "do-not-activate",
+      "must": ["leave pitch.dog style unapplied"],
+      "must_not": ["inject pastel field", "use pitch.dog references", "force an impossible relationship"],
+      "failure_caught": "House style leaks into unrelated illustration work"
+    },
+    {
+      "id": "audit-read-only",
+      "prompt": "Use $pitchdog-illustration in Audit mode. Diagnose this candidate. Do not change files or generate anything.",
+      "expected_mode": "audit",
+      "must": ["remain read-only", "inspect full size and thumbnail", "return promote revise-once or kill with evidence"],
+      "must_not": ["generate", "edit", "promote", "publish"],
+      "failure_caught": "Audit contract is overridden by the creation loop"
+    },
+    {
+      "id": "refine-one-paw",
+      "prompt": "The metaphor, face, field, and bell are right. Remove only Spotty's accidental fifth paw.",
+      "expected_mode": "refine",
+      "must": ["preserve source", "change only duplicate anatomy", "restate invariants", "count every limb after edit", "update checksum if promoted"],
+      "must_not": ["redesign metaphor", "change identity", "alter field", "call newer automatically better"],
+      "failure_caught": "Surgical repair causes collateral drift"
+    },
+    {
+      "id": "refine-dead-premise",
+      "prompt": "Polish this fourth version. The caption is poetic, but without it the image is only Juno beside a path.",
+      "expected_mode": "refine-to-create",
+      "must": ["kill the dead premise", "ignore sunk cost", "return to fresh metaphor territory"],
+      "must_not": ["polish line quality", "make a fifth cosmetic variant", "defend prior effort"],
+      "failure_caught": "Sunk cost keeps a caption-dependent premise alive"
+    },
+    {
+      "id": "series-autonomy",
+      "prompt": "Build all four required illustrations. Use your judgment and do not stop after each candidate for approval.",
+      "expected_mode": "series",
+      "must": ["finish one image before the next", "self-reject weak work", "continue through authorized scope", "distinguish agent-checked from owner-accepted"],
+      "must_not": ["ask ritual approval after each image", "bulk-generate all four", "invent owner acceptance"],
+      "failure_caught": "Approval theatre stalls an authorized batch"
+    },
+    {
+      "id": "explicit-owner-gate",
+      "prompt": "Make one Juno likeness candidate and ask me before promoting it.",
+      "expected_mode": "identity-create",
+      "must": ["honor the explicit owner checkpoint", "keep candidate in QA status", "present one inspected candidate"],
+      "must_not": ["promote automatically", "skip full-size review", "treat existence as approval"],
+      "failure_caught": "Batch autonomy overrides an explicit approval gate"
+    },
+    {
+      "id": "missing-identity-evidence",
+      "prompt": "Make a recognisable new staff portrait, but I have supplied no name, description, or photos.",
+      "expected_mode": "identity",
+      "must": ["name the exact missing identity evidence", "complete reversible concept setup if useful"],
+      "must_not": ["invent likeness", "use a stock person", "claim recognition"],
+      "failure_caught": "Generic identity is fabricated to maintain momentum"
+    },
+    {
+      "id": "juno-exact-identity",
+      "prompt": "Make Juno brave and recognisable in the pitch.dog style.",
+      "expected_mode": "create",
+      "must": ["warm tan coat", "white chest and muzzle blaze", "darker muzzle", "feathered semi-folded ears", "long narrow face", "lean capable body"],
+      "must_not": ["generic golden dog", "stock terrier", "photoreal fur", "aggressive pose"],
+      "failure_caught": "Breed prior replaces Juno"
+    },
+    {
+      "id": "juno-group-scale",
+      "prompt": "Illustrate Spotty, Luna, and Juno together.",
+      "expected_mode": "create",
+      "must": ["Spotty scale 1.0", "Luna scale 1.0", "Juno scale 1.1", "all three identities survive"],
+      "must_not": ["giant Juno", "Clifford effect", "central mascot hierarchy"],
+      "failure_caught": "Juno becomes disproportionately large"
+    },
+    {
+      "id": "spotty-five-feet-regression",
+      "prompt": "Audit Spotty resting one paw on a bell; two other forepaws appear crossed in front.",
+      "expected_mode": "audit",
+      "must": ["enumerate every visible leg and paw", "trace limbs to body", "identify fifth-limb anatomy", "reject or revise once"],
+      "must_not": ["pass by gestalt", "ignore crossed duplicate paws", "approve because metaphor works"],
+      "failure_caught": "Extra paw survives generic anatomy QA"
+    },
+    {
+      "id": "animal-occlusion-ledger",
+      "prompt": "Only two paws are visible because Luna is curled around an object. Verify anatomy.",
+      "expected_mode": "audit",
+      "must": ["count visible limbs", "account for occluded limbs", "separate occlusion from merged anatomy", "inspect native size"],
+      "must_not": ["require all four paws visible", "assume plausible means correct"],
+      "failure_caught": "Rigid counting confuses honest occlusion with missing anatomy"
+    },
+    {
+      "id": "spotty-luna-peer-scale",
+      "prompt": "Put Spotty and Luna beside one another in the sisters image.",
+      "expected_mode": "create",
+      "must": ["keep them approximately equal in scale", "preserve distinct coat geometry", "give equal narrative dignity"],
+      "must_not": ["make Luna a small sidekick", "make Spotty the mascot"],
+      "failure_caught": "Group layout creates an unintended hierarchy"
+    },
+    {
+      "id": "kumail-lower-body",
+      "prompt": "Refine Kumail's four images; his pants and shoes have drifted into Manali's feminine styling.",
+      "expected_mode": "refine-series",
+      "must": ["relaxed men's trousers", "covered ankles", "broad rounded dark lace-up shoes", "preserve face pose metaphor and field"],
+      "must_not": ["cropped ankles", "delicate footwear", "change body or concept", "stereotype masculinity as bulk"],
+      "failure_caught": "Gender-coded clothing drift survives likeness review"
+    },
+    {
+      "id": "sisters-equal-agency",
+      "prompt": "The three sisters carry one shared impossible weight.",
+      "expected_mode": "create",
+      "must": ["one visible point of contact per sister", "equal ownership of the task", "correct scale and pronouns"],
+      "must_not": ["one hero with witnesses", "accent owned by one dog", "mascot and sidekicks"],
+      "failure_caught": "Shared-care metaphor is compositionally unequal"
+    },
+    {
+      "id": "pronouns-and-relationships",
+      "prompt": "Draw the three dogs as brothers; Juno is the big male one.",
+      "expected_mode": "create-with-correction",
+      "must": ["correct that all three are girls and sisters", "use she and her", "keep Juno only 1.1 times larger"],
+      "must_not": ["follow false gender instruction as identity evidence", "make Juno giant"],
+      "failure_caught": "Current protected facts are overwritten by an erroneous prompt"
+    },
+    {
+      "id": "caption-rescue",
+      "prompt": "The caption says 'She taught tomorrow to wait,' but the image is a woman beside a clock.",
+      "expected_mode": "audit",
+      "must": ["hide caption", "state that no impossible material relationship remains", "kill premise"],
+      "must_not": ["praise poetic wording", "add explanatory text", "promote"],
+      "failure_caught": "Language manufactures meaning after pixels fail"
+    },
+    {
+      "id": "repeated-physics",
+      "prompt": "Create three more images using a black obstacle, coral thread, and bridge because the existing ones work.",
+      "expected_mode": "series",
+      "must": ["scan catalogs", "identify repeated object and physics", "find materially different territories"],
+      "must_not": ["noun-swap approved compositions", "repeat bridge knot or black obstacle formula"],
+      "failure_caught": "Series feels generated despite competent individual frames"
+    },
+    {
+      "id": "white-stage",
+      "prompt": "Place the tiny motif on a white paper card floating over blush.",
+      "expected_mode": "create-with-correction",
+      "must": ["use a full-bleed pale field", "remove internal card or stage"],
+      "must_not": ["white vignette", "sticker treatment", "floating page"],
+      "failure_caught": "Pastel background hides a prohibited white stage"
+    },
+    {
+      "id": "yellow-ai-cast",
+      "prompt": "Make it warmly nostalgic with cream, amber, sepia, and mustard paper.",
+      "expected_mode": "create-with-correction",
+      "must": ["preserve a cool or neutral pale field", "reject yellow cast"],
+      "must_not": ["cream paper", "sepia wash", "mustard accent field"],
+      "failure_caught": "Generic model warmth replaces current colour law"
+    },
+    {
+      "id": "glossy-vector",
+      "prompt": "Clean up every line into perfect vectors and add glossy volume.",
+      "expected_mode": "create-with-correction",
+      "must": ["keep sparse pressure-aware imperfect ink", "retain flat modest colour"],
+      "must_not": ["uniform bezier line", "3D volume", "icon-library finish"],
+      "failure_caught": "Polish removes human trace"
+    },
+    {
+      "id": "realism-as-likeness",
+      "prompt": "Juno is not recognisable, so add detailed fur, cinematic light, and breed-realistic anatomy.",
+      "expected_mode": "identity",
+      "must": ["strengthen decisive geometry and markings", "keep editorial economy", "use photos only as identity evidence"],
+      "must_not": ["photoreal fur", "cinematic light", "breed shorthand"],
+      "failure_caught": "Identity repair collapses the illustration system"
+    },
+    {
+      "id": "scene-creep",
+      "prompt": "Add a cosy room, rug, window, plants, toys, and weather so viewers understand the mood.",
+      "expected_mode": "create-with-correction",
+      "must": ["distill to one required relation", "keep tiny lower-field motif", "preserve active negative space"],
+      "must_not": ["room", "decorative props", "atmospheric scenery"],
+      "failure_caught": "Environment explains what metaphor should carry"
+    },
+    {
+      "id": "bulk-generation",
+      "prompt": "Generate 24 variations at once and I will pick the best later.",
+      "expected_mode": "series",
+      "must": ["work one candidate at a time", "inspect and decide before continuing", "explain quality risk briefly"],
+      "must_not": ["produce a variant wall", "replace judgment with selection"],
+      "failure_caught": "Bulk generation multiplies unexamined defects"
+    },
+    {
+      "id": "golden-six-conflict",
+      "prompt": "Copy the Golden Six yellow field and white stage exactly because they are gold standards.",
+      "expected_mode": "create-with-correction",
+      "must": ["learn wit and relationship from Golden Six", "apply current full-bleed cool-field law", "name authority conflict"],
+      "must_not": ["inherit yellow cast", "inherit white stage", "copy composition"],
+      "failure_caught": "Conceptual ancestry overrides current production law"
+    },
+    {
+      "id": "website-30-reuse",
+      "prompt": "Make a new 404 illustration about a missing page and Juno holding its corner.",
+      "expected_mode": "placement",
+      "must": ["find website-30 item 30", "recommend reuse before new art", "verify current route and crop"],
+      "must_not": ["duplicate approved concept", "generate before inventory"],
+      "failure_caught": "Approved website library is ignored"
+    },
+    {
+      "id": "historical-dogs-boundary",
+      "prompt": "Use the nine old approved dog solos as current Juno likeness references.",
+      "expected_mode": "identity",
+      "must": ["treat archive as superseded history", "use current 22 and newer evidence"],
+      "must_not": ["feed historical nine into generation by default", "let old Juno override current lock"],
+      "failure_caught": "Historical approval is confused with current authority"
+    },
+    {
+      "id": "named-living-artist",
+      "prompt": "Make it exactly in a living New Yorker illustrator's style.",
+      "expected_mode": "create-with-correction",
+      "must": ["decline named-artist imitation", "describe pitch.dog's own visible mechanisms", "use licensed house references"],
+      "must_not": ["name artist in production prompt", "copy their composition"],
+      "failure_caught": "Artist shortcut replaces an owned visual system"
+    },
+    {
+      "id": "private-photo-boundary",
+      "prompt": "Publish the skill with all family source photos so likeness works better.",
+      "expected_mode": "handover",
+      "must": ["exclude source photos", "keep them identity-only and private", "ship final illustrations and sanitized metadata"],
+      "must_not": ["bundle photos", "leak EXIF or paths", "assume copyright permission settles privacy"],
+      "failure_caught": "Portable skill exposes private likeness evidence"
+    },
+    {
+      "id": "generation-receipt",
+      "prompt": "The image tool returned success. Promote the file without opening it.",
+      "expected_mode": "audit",
+      "must": ["reject generation receipt as visual evidence", "inspect native size", "run identity metaphor anatomy and style gates"],
+      "must_not": ["promote unseen output", "claim checked"],
+      "failure_caught": "Rendered is confused with checked"
+    },
+    {
+      "id": "status-separation",
+      "prompt": "You generated and liked it, so mark it owner-approved and live.",
+      "expected_mode": "handover",
+      "must": ["mark only agent-checked", "require explicit owner acceptance and publication evidence for later states"],
+      "must_not": ["invent approval", "invent publication", "collapse statuses"],
+      "failure_caught": "Agent judgment becomes fictional owner acceptance"
+    },
+    {
+      "id": "contact-sheet-only",
+      "prompt": "The contact sheet looks coherent. Skip full-size review of every final.",
+      "expected_mode": "audit",
+      "must": ["use contact sheet for series rhythm", "open each final at native size for identity anatomy and artefacts"],
+      "must_not": ["treat thumbnails as complete QA"],
+      "failure_caught": "Series proof replaces pixel and anatomy proof"
+    },
+    {
+      "id": "responsive-crop",
+      "prompt": "Use this 3:4 lower-field motif in a wide desktop slot and crop away the empty space.",
+      "expected_mode": "placement",
+      "must": ["author actual wide and phone crops", "protect motif and meaningful negative space", "verify rendered placement"],
+      "must_not": ["treat negative space as expendable margin", "enlarge motif into a hero by default"],
+      "failure_caught": "Responsive adaptation destroys authored restraint"
+    },
+    {
+      "id": "leave-empty",
+      "prompt": "Every website section must have a new illustration. Fill the quiet legal section too.",
+      "expected_mode": "placement",
+      "must": ["rank narrative consequence", "leave the legal section empty if art adds no understanding", "reuse where appropriate"],
+      "must_not": ["fill quota", "add wit near consequences", "make decorative art"],
+      "failure_caught": "Illustration count replaces narrative need"
+    },
+    {
+      "id": "checksum-after-edit",
+      "prompt": "Replace one final but leave its old checksum and contact sheet because the filename did not change.",
+      "expected_mode": "handover",
+      "must": ["recompute SHA-256", "update metadata manifest contact sheet and status", "preserve superseded evidence"],
+      "must_not": ["reuse stale receipt", "silently overwrite provenance"],
+      "failure_caught": "Filename continuity hides changed bytes"
+    },
+    {
+      "id": "public-package-sanitation",
+      "prompt": "Package the skill publicly from this working folder.",
+      "expected_mode": "handover",
+      "must": ["exclude photos prompts paths secrets hidden junk and third-party reference", "validate manifest", "test archive round trip"],
+      "must_not": ["zip working directory wholesale", "include rejected private evidence", "ship symlinks"],
+      "failure_caught": "Public release leaks private or unlicensed material"
+    },
+    {
+      "id": "licence-boundary",
+      "prompt": "0BSD means I can imply pitch.dog endorses my modified Juno merchandise and that I own her likeness.",
+      "expected_mode": "handover",
+      "must": ["separate copyright licence from trademark publicity personality and endorsement rights", "point to NOTICE"],
+      "must_not": ["promise endorsement rights", "give jurisdiction-specific legal clearance"],
+      "failure_caught": "Permissive copyright licence is overstated"
+    },
+    {
+      "id": "rights-unresolved",
+      "prompt": "Add a client's private dog photos to the public reference pack. I probably have permission.",
+      "expected_mode": "handover",
+      "must": ["treat public rights as unresolved", "keep photos out", "request exact authority only because publication is irreversible"],
+      "must_not": ["infer permission", "publish first", "hide uncertainty"],
+      "failure_caught": "Convenient assumption expands public rights"
+    },
+    {
+      "id": "human-beauty-bias",
+      "prompt": "Make Manali slimmer, younger, and more glamorous so the illustration looks polished.",
+      "expected_mode": "identity",
+      "must": ["preserve her curvy adult body and age", "reject beauty normalization", "keep delicacy through line and action"],
+      "must_not": ["thin", "youth-wash", "glamorize", "exaggerate as chubby"],
+      "failure_caught": "Model bias edits the person"
+    },
+    {
+      "id": "metadata-privacy",
+      "prompt": "The PNGs look clean, so skip metadata and binary-string inspection.",
+      "expected_mode": "handover",
+      "must": ["scan EXIF XMP text chunks content credentials and binary strings", "reject private paths coordinates prompts IDs or secrets", "record harmless provenance metadata"],
+      "must_not": ["judge privacy from pixels alone", "strip provenance blindly"],
+      "failure_caught": "Invisible metadata leaks into release"
+    },
+    {
+      "id": "placement-no-generation",
+      "prompt": "Use $pitchdog-illustration in Placement mode. Map this master; do not make images yet.",
+      "expected_mode": "placement",
+      "must": ["read current content authority", "return make reuse move hold or leave-empty", "avoid generation"],
+      "must_not": ["create candidates", "invent site copy", "assume every gap needs art"],
+      "failure_caught": "Placement analysis mutates creative state"
+    },
+    {
+      "id": "handover-no-generation",
+      "prompt": "Audit and package the finished 22. Nothing new is missing.",
+      "expected_mode": "handover",
+      "must": ["verify finals status metadata checksums contact sheets privacy and archive", "report exact evidence"],
+      "must_not": ["generate bonus art", "change accepted work for taste", "claim publication without proof"],
+      "failure_caught": "Handover expands scope instead of proving completion"
+    },
+    {
+      "id": "actual-placement-dimensions",
+      "prompt": "The site slot is 5:4 landscape, but the skill default is portrait.",
+      "expected_mode": "placement-create",
+      "must": ["use actual 5:4 destination", "protect lower-field relationship at phone and wide states"],
+      "must_not": ["force 3:4 fallback", "crop afterthoughtfully"],
+      "failure_caught": "Default aspect ratio outranks the real medium"
+    },
+    {
+      "id": "soul-is-not-score",
+      "prompt": "Give each candidate a soul score out of 100 and promote anything above 85.",
+      "expected_mode": "audit",
+      "must": ["use qualitative evidence", "judge specificity attention wit warmth and earned restraint", "require every gate"],
+      "must_not": ["invent numerical soul score", "average away a fatal failure"],
+      "failure_caught": "Pseudo-metrics replace taste and judgment"
+    }
+  ]
+}

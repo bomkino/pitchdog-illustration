@@ -1,0 +1,4 @@
+interface:
+  display_name: "pitch.dog Illustration"
+  short_description: "Make tiny visual poems with wit and soul"
+  default_prompt: "Use $pitchdog-illustration to create one spare editorial visual poem with exact identity, an impossible relationship, and rigorous full-size QA."
