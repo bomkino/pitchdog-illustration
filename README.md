@@ -13,7 +13,7 @@ ink, a restrained accent, and enough empty field for the thought to breathe.
 ## What it does
 
 - conceives one poetic visual metaphor before prompting;
-- generates one candidate at a time and inspects it at native size;
+- generates one candidate at a time and inspects it at actual-pixel size;
 - preserves exact human and dog identity without drifting into portrait realism;
 - audits or surgically refines supplied images without approval theatre;
 - maps website narrative needs before making decorative filler;
@@ -26,7 +26,7 @@ or licence to make unrelated work look like pitch.dog.
 
 ## Reference pack
 
-The runtime skill includes 58 full-resolution active references:
+The source skill includes 58 full-resolution active references:
 
 - **22 current locked finals:** execution, identity, and mature visual-law gate;
 - **30 approved website illustrations:** narrative breadth, reuse, placement,
@@ -37,11 +37,24 @@ Two contact sheets provide fast series scans. Every file has SHA-256,
 dimensions, tier, status authority, source lineage, and rights basis in
 [`assets/reference-manifest.json`](skills/pitchdog-illustration/assets/reference-manifest.json).
 
-Across project history there are 67 unique owner-approved artworks. The nine
-additional dog solos remain in [`archive/historical-approved-dogs-superseded/`](archive/historical-approved-dogs-superseded/)
-for provenance only. They are not live likeness or style authority.
+Across project history there are 67 unique approved-baseline-or-current-locked
+artworks: 48 in the dated owner-approved baseline plus 22 current locked
+finals, minus three shared Manali works. This arithmetic does not invent owner
+acceptance for every current file. Nine superseded dog solos remain in
+[`archive/historical-approved-dogs-superseded/`](archive/historical-approved-dogs-superseded/)
+for provenance only; they are not live likeness or style authority.
+
+Known acceptance evidence covers 53 unique works across eras: all 48 baseline
+works plus five new current approvals. Within the current 22, eight files are
+owner-accepted—the three reused Manali standards, Juno 01, and Kumail 01–04;
+the other 14 remain honestly labelled current locked finals.
 
 Real family photos and the third-party original reference are excluded.
+
+Two dated website files—`28-go-get-em.png` and `30-lost-page.png`—remain in the
+owner-approved historical set as metaphor and placement evidence, but the
+manifest prohibits their pre-rebuild Juno as current identity/scale authority.
+Current Juno work must use the locked 22-piece set.
 
 ![Approved website 30 contact sheet](skills/pitchdog-illustration/assets/references/website-30-contact-sheet.png)
 
@@ -71,21 +84,35 @@ npx skills add bomkino/pitchdog-illustration \
 
 The package follows the open [Agent Skills specification](https://agentskills.io/specification).
 
-### ChatGPT desktop / Work
+Current release: [v1.0.1 notes](docs/releases/v1.0.1.md).
+
+### ChatGPT desktop
 
 1. Download [`pitchdog-illustration.skill`](https://github.com/bomkino/pitchdog-illustration/releases/latest/download/pitchdog-illustration.skill).
 2. Open it with ChatGPT.
 3. Review the scan and install.
 
+This is the documented/intended desktop flow. Native desktop installation was
+not independently receipt-verified for v1.0.1; web / Cloud Work was.
+
 ### ChatGPT web / Cloud Work
 
 1. Download [`pitchdog-illustration.zip`](https://github.com/bomkino/pitchdog-illustration/releases/latest/download/pitchdog-illustration.zip).
-2. Open **Plugins → Skills → Create → Upload from your computer**.
+2. Open **Profile → Skills → Create → Upload from your computer**. Some
+   workspaces expose the same page under **Plugins → Skills**.
 3. Review the scan and install.
 
-Install separately on desktop and web/mobile. Personal Skills do not currently
-sync automatically between those surfaces. Workspace permissions may control
-uploading, sharing, and installation. See OpenAI's current
+The repository keeps the default ChatGPT-portable archives below 25,000,000
+bytes, a budget based on the Skills uploader gate observed in the tested
+ChatGPT web / Cloud Work workspace on 6 August 2026. Product and workspace
+limits can change. The package retains all 58 references as sRGB display
+derivatives plus each immutable canonical source SHA-256. Nothing is omitted. Download
+[`pitchdog-illustration-full.skill`](https://github.com/bomkino/pitchdog-illustration/releases/latest/download/pitchdog-illustration-full.skill)
+or [`pitchdog-illustration-full.zip`](https://github.com/bomkino/pitchdog-illustration/releases/latest/download/pitchdog-illustration-full.zip)
+for the full-resolution archival edition.
+
+OpenAI documents separate desktop and web installation. Workspace permissions
+may control uploading, sharing, and installation. See OpenAI's current
 [Skills in ChatGPT](https://help.openai.com/en/articles/20001066) guide.
 
 ## Use
@@ -134,10 +161,14 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements-dev.txt
 .venv/bin/python scripts/validate_skill.py
 .venv/bin/python scripts/package_skill.py
+.venv/bin/python scripts/validate_skill.py --release-dist dist
 ```
 
-The packager creates byte-identical deterministic `.zip` and `.skill` archives,
-each with one top-level `pitchdog-illustration/` folder.
+The packager creates a ChatGPT-portable pair within the 25,000,000-byte
+repository budget and a full-resolution archival pair. Builds are reproducible
+when repeated in the same pinned environment; no cross-platform byte-identity
+claim is made. Each `.zip` and `.skill` twin is byte-identical and contains one
+top-level `pitchdog-illustration/` folder.
 
 ## Contribute
 

@@ -17,7 +17,8 @@ Keep these distinct:
 
 - **Concept-locked:** verbal relationship selected; no image evidence yet.
 - **Generated:** candidate file exists.
-- **Inspected:** actual pixels opened at full size.
+- **Inspected:** actual pixels opened at 100% for the active profile; canonical
+  source used when exact-pixel evidence matters.
 - **Agent-checked:** defined gates passed in the current review.
 - **Owner-accepted:** owner explicitly accepted this exact file or checksum.
 - **Promoted:** copied into a finals location under current authority.
@@ -110,7 +111,7 @@ Regenerate metadata and contact-sheet receipts after any byte change. A filename
 
 ## Contact-sheet QA
 
-Build a contact sheet only after individual full-size checks. It should show:
+Build a contact sheet only after individual actual-pixel checks. It should show:
 
 - every required final exactly once;
 - stable ordering by subject and sequence;
@@ -126,7 +127,7 @@ Use it to check:
 - accidental outliers in density, realism, or warmth;
 - missing or duplicate files.
 
-A contact sheet never replaces full-size inspection.
+A contact sheet never replaces actual-pixel inspection.
 
 ## Public/private boundary
 
@@ -145,7 +146,7 @@ The current bundled reference illustrations are owner-authorized under 0BSD. The
 ## Handover checklist
 
 1. Required matrix count matches finals count.
-2. Every final passes full-size and contact-sheet review.
+2. Every final passes actual-pixel and contact-sheet review.
 3. Exact identity and group ratios pass.
 4. Candidate, rejected, and final boundaries remain clear.
 5. Metadata record count matches finals count.

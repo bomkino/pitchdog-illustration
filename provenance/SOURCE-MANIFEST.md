@@ -7,8 +7,8 @@ Date: 2026-08-06
 | Family | Count | Status authority | Runtime role |
 | --- | ---: | --- | --- |
 | Golden Six | 6 | Owner-approved gold standard, 2026-07-24 | Conceptual ancestry |
-| Website 30 | 30 | Owner-approved family batch, 2026-07-24 | Narrative breadth, reuse, placement, collision audit |
-| Current family finals | 22 | Current locked production records through 2026-08-06 | Execution and present identity authority |
+| Website 30 | 30 | Owner-approved family batch, 2026-07-24; items 28 and 30 prohibited as current Juno identity/scale authority | Narrative breadth, placement, collision audit, and bounded historical reuse |
+| Current family finals | 22 | 8 owner-accepted; 14 locked without a recorded owner gate, through 2026-08-06 | Execution and present identity authority |
 
 Machine-readable per-file hashes, dimensions, PNG modes, source lineage, and
 rights basis live in

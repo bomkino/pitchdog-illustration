@@ -10,7 +10,7 @@ evidence. The goal is not more rules or more pictures. It is better decisions.
 3. Keep `SKILL.md` lean; put depth in one directly linked reference.
 4. Preserve the difference between current law, approved history, identity
    evidence, agent checks, owner acceptance, and publication.
-5. Run the complete validator and deterministic package round-trip.
+5. Run the complete validator and same-environment reproducible package round-trip.
 
 ## Illustration assets
 

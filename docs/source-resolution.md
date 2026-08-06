@@ -11,10 +11,10 @@ in full before construction.
 | Source record | SHA-256 | Use |
 | --- | --- | --- |
 | `START_HERE.md` | `8936f479ed58425ad83aedeaa2d37971336944e9be91b3f1cd8eab95b5a5107a` | Handover state, source boundaries, completion law |
-| `STATUS.md` | `1f04246f7a842ac46578597b13f8e8754c6d1c27db7812449f69db2d87df7d0a` | Current 22-final matrix and identity locks |
+| `STATUS.md` | `a861f7f8417d37447c40cda452749ded3705adb04ad731aa892d7665503dc6f2` | Current 22-final matrix, identity locks, and promoted website-master gap status |
 | `CREATIVE_LOCK.md` | `67545b2d2a6365af00e208ebdd50379da47979b2130acd1bf400a98c864aeea5` | Visual law and rejection conditions |
-| `PRODUCTION_LOG.md` | `b34d78a545fa6936b48064788040082fa5cd5a2c8defaa47f974f392e6bf025f` | What failed, what fixed it, Spotty delta |
-| `FILE_MAP.md` | `7fa0cafa6ef1278376d7e9cde52f207b845eb5750224572545b396a6349fade6` | Authoritative folders and historical boundaries |
+| `PRODUCTION_LOG.md` | `c30891323584147a56cc2423e80c751e2b149c050013052fe7c59325d02fd80f` | What failed, what fixed it, Spotty delta, and 404 final decision |
+| `FILE_MAP.md` | `361c6d20488bd3ad5ba777379a8dc7e105af7f40ca8cffe37d438e4b2902be3c` | Authoritative folders, website supplement, and historical boundaries |
 | `approved-baseline/manifest.json` | `26f7ca3bbcac58147d93e9d3ca334906bcd6a49727872e1e5b0840214b6fb338` | Dated 48-image approval catalog, captions, sites, hashes |
 | `current-rebuild/FINAL-METADATA.md` | `b66514134c7a52b3824ca94e177eae7463589b80ad32ed90d7c639a9b96317a3` | Current captions, rationales, placements, final hashes |
 | `current-rebuild/FINAL-ILLUSTRATION-MANIFEST.sha256` | `d11fba248e77a30d1d99eebf7869842197aa4a5de2f122461034501e24690ab1` | Current 22-byte authority after correction |
@@ -29,16 +29,25 @@ The dated baseline contains exactly 48 approved artworks:
 - 3 Manali gold-standard solos;
 - 9 dog-family solos.
 
-The current family set contains 22 finals. It reuses the same three Manali
-files and adds 19 unique works. The complete historical union is therefore
-`48 + 22 - 3 = 67` unique approved artworks.
+The current family set contains 22 locked finals. It reuses the same three
+Manali files and adds 19 unique works. The complete historical union is
+therefore `48 + 22 - 3 = 67` unique approved-baseline-or-current-locked
+artworks. The union count does not imply owner acceptance of every current
+file; individual status stays authoritative.
 
-No other authoritative approved set was found. Extra files in current locks are
-duplicates, alternate encodings, contact sheets, candidates, or rejected work.
+Explicit acceptance evidence currently covers 53 unique works: the complete
+48-work dated baseline plus five new approvals recorded on 30 July 2026 (Juno
+01 and Kumail 01–04). The current 22 therefore contains eight owner-accepted
+files including its three reused Manali works, and 14 locked finals without a
+recorded owner-acceptance gate.
+
+No other authoritative approved baseline or current locked set was found.
+Extra files in current locks are duplicates, alternate encodings, contact
+sheets, candidates, or rejected work.
 
 ## Reference decision
 
-The runtime skill ships 58 active full-resolution illustrations:
+The canonical source skill ships 58 active full-resolution illustrations:
 
 1. current 22 for mature execution and present identity;
 2. Golden Six for conceptual wit and editorial economy;
@@ -47,6 +56,24 @@ The runtime skill ships 58 active full-resolution illustrations:
 The older nine dog solos remain historically approved but are superseded by the
 current family rebuild. They live outside the runtime skill in a labelled
 archive with checksums.
+
+Within website 30, items 28 and 30 remain truthful owner-approved history but
+their pre-rebuild Juno is prohibited as current identity/scale authority. The
+skill keeps the pixels immutable, records exact reuse conditions, and directs
+current work to the locked 22-piece identity set.
+
+The ChatGPT release archive keeps all 58 as sRGB display-resolution PNG
+derivatives within a 25,000,000-byte repository budget. That budget comes from
+the Skills uploader gate observed in the tested ChatGPT web / Cloud Work
+workspace on 6 August 2026; it is not a universal product limit. Its manifest
+carries both derivative and canonical source receipts plus an immutable source
+tag and commit. The public canonical profile remains pixel and
+embedded-provenance authority.
+
+`canonicalPixelSource` pins those exact pixel receipts to public tag `v1.0.0`,
+commit `1ade97592e3779e26f0280a02a58505de935d955`, because v1.0.1 changes the
+packaging and provenance law without changing any canonical reference pixels.
+Any future pixel change must publish and name a new immutable locator.
 
 The third-party original inspiration image is useful evidence inside the
 private handover but is not a pitch.dog-approved artwork and is not distributed.

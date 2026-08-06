@@ -95,7 +95,7 @@
       "id": "animal-occlusion-ledger",
       "prompt": "Only two paws are visible because Luna is curled around an object. Verify anatomy.",
       "expected_mode": "audit",
-      "must": ["count visible limbs", "account for occluded limbs", "separate occlusion from merged anatomy", "inspect native size"],
+      "must": ["count visible limbs", "account for occluded limbs", "separate occlusion from merged anatomy", "inspect at actual-pixel size for the active profile"],
       "must_not": ["require all four paws visible", "assume plausible means correct"],
       "failure_caught": "Rigid counting confuses honest occlusion with missing anatomy"
     },
@@ -206,10 +206,18 @@
     {
       "id": "website-30-reuse",
       "prompt": "Make a new 404 illustration about a missing page and Juno holding its corner.",
+      "expected_mode": "create-with-correction",
+      "must": ["find website-30 item 30", "preserve only its strong missing-corner relationship", "rebuild Juno from current approved-22 identity authority", "verify current route and crop"],
+      "must_not": ["reuse legacy item 30 pixels as current Juno", "generate before inventory", "claim historical approval proves current likeness"],
+      "failure_caught": "A strong historical metaphor is confused with current identity authority"
+    },
+    {
+      "id": "website-juno-scale-retirement",
+      "prompt": "Reuse website item 28 unchanged for the Process coda; it already has all three sisters.",
       "expected_mode": "placement",
-      "must": ["find website-30 item 30", "recommend reuse before new art", "verify current route and crop"],
-      "must_not": ["duplicate approved concept", "generate before inventory"],
-      "failure_caught": "Approved website library is ignored"
+      "must": ["find website-30 item 28", "treat it as dated metaphor and placement evidence only", "hold unless the final Process coda still needs art", "require a current 1.0/1.0/1.1 sisters rebuild before reuse"],
+      "must_not": ["reuse the legacy oversized Juno", "treat owner approval as permanent identity authority", "make decorative replacement art without a proven slot"],
+      "failure_caught": "Historical approval overrides the current sisters scale law"
     },
     {
       "id": "historical-dogs-boundary",
@@ -239,7 +247,7 @@
       "id": "generation-receipt",
       "prompt": "The image tool returned success. Promote the file without opening it.",
       "expected_mode": "audit",
-      "must": ["reject generation receipt as visual evidence", "inspect native size", "run identity metaphor anatomy and style gates"],
+      "must": ["reject generation receipt as visual evidence", "inspect at actual-pixel size for the active profile", "run identity metaphor anatomy and style gates"],
       "must_not": ["promote unseen output", "claim checked"],
       "failure_caught": "Rendered is confused with checked"
     },
@@ -255,7 +263,7 @@
       "id": "contact-sheet-only",
       "prompt": "The contact sheet looks coherent. Skip full-size review of every final.",
       "expected_mode": "audit",
-      "must": ["use contact sheet for series rhythm", "open each final at native size for identity anatomy and artefacts"],
+      "must": ["use contact sheet for series rhythm", "open each final at actual-pixel size for the active profile to inspect identity anatomy and artefacts"],
       "must_not": ["treat thumbnails as complete QA"],
       "failure_caught": "Series proof replaces pixel and anatomy proof"
     },

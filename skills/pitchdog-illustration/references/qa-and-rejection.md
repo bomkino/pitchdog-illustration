@@ -13,10 +13,11 @@
 
 Never review only a chat thumbnail or generation receipt.
 
-1. Open the candidate at native size.
+1. Open the candidate at actual-pixel size (100% of that file).
 2. Open it again at roughly `10–15%` scale.
 3. Put beside the approved-22 contact sheet.
-4. Open two current finals and one Golden Six ancestor at full size.
+4. Open two current finals and one Golden Six ancestor at actual-pixel size for
+   the active profile; use canonical sources for exact-pixel adjudication.
 5. Open exact subject evidence when likeness matters.
 6. Hide the caption.
 
@@ -56,7 +57,7 @@ Ask: what material relationship changed? If answer is only “it feels magical�
 ### 4. Identity
 
 - Subject reads as the exact person or animal at thumbnail size.
-- Decisive cues survive at full size.
+- Decisive cues survive at actual-pixel size.
 - Body, age, skin tone, hair or coat, markings, clothing, and proportions remain truthful.
 - Pose and gaze support the action.
 - No beautifying, thinning, gender drift, breed substitution, or stock-character default appeared.
@@ -83,7 +84,7 @@ If identity is generic but the visual system is correct, regenerate from stronge
 - No extra limbs, merged forms, floating contact, broken anatomy, accidental face, or impossible action unrelated to the concept.
 - Accent object connects to the intended actor and object.
 
-For every animal, write a literal anatomy ledger at native size: count each
+For every animal, write a literal anatomy ledger at actual-pixel size: count each
 visible leg and paw, trace it to the body, and account for occluded limbs. Repeat
 after any edit and in the final contact sheet. Do not approve by gestalt.
 

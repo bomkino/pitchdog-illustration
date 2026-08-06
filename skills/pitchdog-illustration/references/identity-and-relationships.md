@@ -85,7 +85,8 @@ Breed labels are weak evidence. Record:
 
 Keep fur flat and economical. Do not solve identity with photorealistic texture.
 
-At native size, run an anatomy ledger after every generation or edit:
+At actual-pixel size for the active profile, run an anatomy ledger after every
+generation or edit:
 
 1. enumerate every visible leg and paw;
 2. trace each visible limb back to its shoulder or hip;
@@ -130,7 +131,7 @@ These locks are public calibration for the bundled approved references. Owner-su
 ### Kumail
 
 - Adult man with a dense curl silhouette, gentle face, and grounded posture.
-- Relaxed men's trousers, covered ankles, and broad rounded lace-up sneakers in the current approved set.
+- Relaxed men's trousers, covered ankles, and broad rounded lace-up sneakers in the current locked set.
 - Do not substitute cropped or tapered feminine-coded lower-body styling.
 - Keep body and clothing ordinary, capable, and unglamorous.
 
@@ -153,6 +154,9 @@ These locks are public calibration for the bundled approved references. Owner-su
 - Long narrow face; dark-tipped, semi-folded, feathered ears.
 - Lean and capable, not a giant golden dog or stock terrier.
 - Brave, fearless, action-first; courage reads through doing, not aggression.
+- Never use website-30 items 28 or 30 as current Juno likeness or scale
+  evidence. They are dated metaphor/placement history; current `approved-22`
+  Juno files and the written lock outrank them.
 
 ### Sisters together
 

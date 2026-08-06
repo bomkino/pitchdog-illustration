@@ -2,11 +2,27 @@
   "schemaVersion": 1,
   "packVersion": "2026-08-06-v1",
   "packDate": "2026-08-06",
+  "assetProfile": "canonical-full-resolution",
   "activeIllustrationCount": 58,
   "contactSheetCount": 2,
   "historicalApprovedSupersededCount": 9,
-  "uniqueOwnerApprovedAcrossEras": 67,
+  "historicalOwnerApprovedBaselineCount": 48,
+  "currentLockedFinalCount": 22,
+  "currentOwnerAcceptedCount": 8,
+  "currentLockedWithoutRecordedOwnerAcceptanceCount": 14,
+  "crossEraOverlapCount": 3,
+  "uniqueApprovedOrLockedAcrossEras": 67,
+  "uniqueOwnerAcceptedAcrossErasKnownCount": 53,
   "referencePackSha256": "d99b9c379b5e3336d3c19055ef29147698796276b8cef86ed8ee557356ca1c65",
+  "canonicalPixelSource": {
+    "repository": "https://github.com/bomkino/pitchdog-illustration",
+    "releaseTag": "v1.0.0",
+    "commit": "1ade97592e3779e26f0280a02a58505de935d955",
+    "manifestPath": "skills/pitchdog-illustration/assets/reference-manifest.json",
+    "manifestSha256": "4cba40dd6f01e3997d1913c4a4c89a88c0b707811aef9c11c95611fb3426fae8",
+    "assetProfile": "canonical-full-resolution",
+    "referencePackSha256": "d99b9c379b5e3336d3c19055ef29147698796276b8cef86ed8ee557356ca1c65"
+  },
   "rightsBoundary": {
     "included": "Golden Six, website 30, and current locked 22 illustration files.",
     "excluded": "Real family photographs, private likeness evidence, rejected work, and third-party inspiration.",
@@ -27,7 +43,8 @@
       "width": 978,
       "height": 1609,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/golden-six/02-find-the-spine.png",
@@ -43,7 +60,8 @@
       "width": 972,
       "height": 1619,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/golden-six/03-every-slide-earns-its-place.png",
@@ -59,7 +77,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/golden-six/04-make-the-world-visible.png",
@@ -75,7 +94,8 @@
       "width": 972,
       "height": 1619,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/golden-six/05-hold-the-idea-steady.png",
@@ -91,7 +111,8 @@
       "width": 1122,
       "height": 1402,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/golden-six/06-the-numbers-have-people-inside.png",
@@ -107,7 +128,8 @@
       "width": 971,
       "height": 1620,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/01-a-decade-distilled.png",
@@ -123,7 +145,8 @@
       "width": 971,
       "height": 1619,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/02-everything-your-pitch-needs.png",
@@ -139,7 +162,8 @@
       "width": 971,
       "height": 1619,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/03-get-a-useful-number-first.png",
@@ -155,7 +179,8 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/04-off-leash.png",
@@ -171,7 +196,8 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/05-ready-when-you-are.png",
@@ -187,7 +213,8 @@
       "width": 971,
       "height": 1619,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/06-choose-what-the-pitch-needs.png",
@@ -203,7 +230,8 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/07-built-for-genre.png",
@@ -219,7 +247,8 @@
       "width": 1448,
       "height": 1086,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/08-your-story-is-ready.png",
@@ -235,7 +264,8 @@
       "width": 971,
       "height": 1619,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/09-scope-before-the-clock.png",
@@ -251,7 +281,8 @@
       "width": 1448,
       "height": 1086,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/10-fast-focused-no-fluff.png",
@@ -267,7 +298,8 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/11-brief-in-hand.png",
@@ -283,7 +315,8 @@
       "width": 1672,
       "height": 941,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/12-make-the-business-make-sense.png",
@@ -299,7 +332,8 @@
       "width": 1568,
       "height": 1003,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/13-build-scope-before-spreadsheet.png",
@@ -315,7 +349,8 @@
       "width": 1448,
       "height": 1086,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/14-make-the-logo-bigger.png",
@@ -331,7 +366,8 @@
       "width": 1254,
       "height": 1254,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/15-know-the-range.png",
@@ -347,7 +383,8 @@
       "width": 971,
       "height": 1619,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/16-the-full-handover.png",
@@ -363,7 +400,8 @@
       "width": 1254,
       "height": 1254,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/17-free-help-no-strings.png",
@@ -379,7 +417,8 @@
       "width": 971,
       "height": 1619,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/18-pay-it-forward.png",
@@ -395,7 +434,8 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/19-pump-up-my-pitch.png",
@@ -411,7 +451,8 @@
       "width": 971,
       "height": 1619,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/20-a-note-you-can-act-on.png",
@@ -427,7 +468,8 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/21-one-project-one-deck.png",
@@ -443,7 +485,8 @@
       "width": 971,
       "height": 1620,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/22-good-work-travels.png",
@@ -459,7 +502,8 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/23-we-quit-on-principle.png",
@@ -475,7 +519,8 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/24-help-not-funnel.png",
@@ -491,7 +536,8 @@
       "width": 1254,
       "height": 1254,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/25-why-pitch-dog.png",
@@ -507,7 +553,8 @@
       "width": 971,
       "height": 1619,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/26-bomkino-grew-first-roots.png",
@@ -523,7 +570,8 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/27-already-in-the-room.png",
@@ -539,7 +587,8 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/28-go-get-em.png",
@@ -555,7 +604,13 @@
       "width": 1536,
       "height": 1024,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true,
+      "identityAuthority": "prohibited-current-juno",
+      "knownLimitations": [
+        "Juno predates the current likeness and sisters-scale lock and reads materially larger than the required 1.1× relationship."
+      ],
+      "reuseCondition": "Metaphor and dated placement evidence only. If the final Process coda retains this slot, rebuild Juno from current approved-22 identity and 1.1× scale authority before use."
     },
     {
       "path": "assets/references/website-30/29-bring-the-unfinished-thought.png",
@@ -571,7 +626,8 @@
       "width": 971,
       "height": 1620,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/website-30/30-lost-page.png",
@@ -587,7 +643,13 @@
       "width": 1122,
       "height": 1402,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true,
+      "identityAuthority": "prohibited-current-juno",
+      "knownLimitations": [
+        "Juno is broad, stocky, and generic relative to the current lean body, darker muzzle, feathered ears, and narrow-face lock."
+      ],
+      "reuseCondition": "Metaphor and dated 404 placement evidence only. Rebuild Juno from current approved-22 identity authority; do not reuse these pixels as current likeness evidence."
     },
     {
       "path": "assets/references/approved-22/01-jenai-fed-the-pause.png",
@@ -603,7 +665,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": false
     },
     {
       "path": "assets/references/approved-22/01-juno-loose-end-of-impossible.png",
@@ -611,15 +674,16 @@
       "label": "juno loose end of impossible",
       "kind": "illustration",
       "tier": "current-execution-authority",
-      "status": "locked-current-final",
-      "statusAuthority": "Current production record; Spotty 01 corrected 2026-08-06.",
-      "sourceLineage": "Current 22-final family rebuild.",
+      "status": "owner-approved-current-final",
+      "statusAuthority": "Owner gate recorded 2026-07-30 in QA-OWNER-GATES-2026-07-30.md.",
+      "sourceLineage": "Current Juno final promoted from owner-approved candidate v5.",
       "publicRightsBasis": "Copyright-owner authorization for public 0BSD release, 2026-08-06.",
       "sha256": "4adf8e9e8813feb188d3217a2d165786519e678b4efc5fd422e7b9994365958f",
       "width": 1024,
       "height": 1536,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/01-kumail-persuaded-knot.png",
@@ -627,15 +691,16 @@
       "label": "kumail persuaded knot",
       "kind": "illustration",
       "tier": "current-execution-authority",
-      "status": "locked-current-final",
-      "statusAuthority": "Current production record; Spotty 01 corrected 2026-08-06.",
-      "sourceLineage": "Current 22-final family rebuild.",
+      "status": "owner-approved-current-final",
+      "statusAuthority": "Owner gate recorded 2026-07-30 in QA-OWNER-GATES-2026-07-30.md.",
+      "sourceLineage": "Current Kumail lower-body repair approved and promoted.",
       "publicRightsBasis": "Copyright-owner authorization for public 0BSD release, 2026-08-06.",
       "sha256": "cbace331e4c694bdcfa141204e33a9aeae6b7a7d690a72cea4ba63478d851d8f",
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": false
     },
     {
       "path": "assets/references/approved-22/01-luna-wound-flower-awake.png",
@@ -651,7 +716,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/01-manali-lightning-sensible-shoes.png",
@@ -659,15 +725,16 @@
       "label": "manali lightning sensible shoes",
       "kind": "illustration",
       "tier": "current-execution-authority",
-      "status": "locked-current-final",
-      "statusAuthority": "Current production record; Spotty 01 corrected 2026-08-06.",
-      "sourceLineage": "Current 22-final family rebuild.",
+      "status": "owner-approved-current-final",
+      "statusAuthority": "Owner-reviewed baseline dated 2026-07-24; reused unchanged in the current 22.",
+      "sourceLineage": "Manali owner-approved gold standard reused in the current 22.",
       "publicRightsBasis": "Copyright-owner authorization for public 0BSD release, 2026-08-06.",
       "sha256": "2ef4df834df4552acb0d0d63180ccd5192ce834a119e8198073dd2c959076675",
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/01-sisters-carried-heavy-thing-lightly.png",
@@ -683,7 +750,8 @@
       "width": 1024,
       "height": 1536,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/01-spotty-quiet-afternoon.png",
@@ -699,7 +767,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": false
     },
     {
       "path": "assets/references/approved-22/02-jenai-smallest-detail-entrance.png",
@@ -715,7 +784,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/02-juno-made-impossible-sit.png",
@@ -731,7 +801,8 @@
       "width": 1024,
       "height": 1536,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/02-kumail-doorway-learned-outline.png",
@@ -739,15 +810,16 @@
       "label": "kumail doorway learned outline",
       "kind": "illustration",
       "tier": "current-execution-authority",
-      "status": "locked-current-final",
-      "statusAuthority": "Current production record; Spotty 01 corrected 2026-08-06.",
-      "sourceLineage": "Current 22-final family rebuild.",
+      "status": "owner-approved-current-final",
+      "statusAuthority": "Owner gate recorded 2026-07-30 in QA-OWNER-GATES-2026-07-30.md.",
+      "sourceLineage": "Current Kumail lower-body repair approved and promoted.",
       "publicRightsBasis": "Copyright-owner authorization for public 0BSD release, 2026-08-06.",
       "sha256": "5fbeb938b30986cbfe982b0da5d97d361e20fbfc81024d9c6f7214f504cbc66d",
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/02-luna-last-raindrop.png",
@@ -763,7 +835,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/02-manali-good-chair-quiet-idea.png",
@@ -771,15 +844,16 @@
       "label": "manali good chair quiet idea",
       "kind": "illustration",
       "tier": "current-execution-authority",
-      "status": "locked-current-final",
-      "statusAuthority": "Current production record; Spotty 01 corrected 2026-08-06.",
-      "sourceLineage": "Current 22-final family rebuild.",
+      "status": "owner-approved-current-final",
+      "statusAuthority": "Owner-reviewed baseline dated 2026-07-24; reused unchanged in the current 22.",
+      "sourceLineage": "Manali owner-approved gold standard reused in the current 22.",
       "publicRightsBasis": "Copyright-owner authorization for public 0BSD release, 2026-08-06.",
       "sha256": "32c00ff70cf4ef51fbebf3bea53e54e165cca723aab6eff28569d7727fae3098",
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/02-spotty-stone-ran-out-of-silence.png",
@@ -795,7 +869,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/03-jenai-folded-thunder.png",
@@ -811,7 +886,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/03-juno-bridge-before-gap.png",
@@ -827,7 +903,8 @@
       "width": 1024,
       "height": 1536,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/03-kumail-smallest-failure.png",
@@ -835,15 +912,16 @@
       "label": "kumail smallest failure",
       "kind": "illustration",
       "tier": "current-execution-authority",
-      "status": "locked-current-final",
-      "statusAuthority": "Current production record; Spotty 01 corrected 2026-08-06.",
-      "sourceLineage": "Current 22-final family rebuild.",
+      "status": "owner-approved-current-final",
+      "statusAuthority": "Owner gate recorded 2026-07-30 in QA-OWNER-GATES-2026-07-30.md.",
+      "sourceLineage": "Current Kumail lower-body repair approved and promoted.",
       "publicRightsBasis": "Copyright-owner authorization for public 0BSD release, 2026-08-06.",
       "sha256": "300362600a94b2f08cd371028af31622ea51b10499d1af3945eeb04e88fca6aa",
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": false
     },
     {
       "path": "assets/references/approved-22/03-luna-teaspoon-daylight.png",
@@ -859,7 +937,8 @@
       "width": 887,
       "height": 1774,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/03-manali-unfolded-horizon.png",
@@ -867,15 +946,16 @@
       "label": "manali unfolded horizon",
       "kind": "illustration",
       "tier": "current-execution-authority",
-      "status": "locked-current-final",
-      "statusAuthority": "Current production record; Spotty 01 corrected 2026-08-06.",
-      "sourceLineage": "Current 22-final family rebuild.",
+      "status": "owner-approved-current-final",
+      "statusAuthority": "Owner-reviewed baseline dated 2026-07-24; reused unchanged in the current 22.",
+      "sourceLineage": "Manali owner-approved gold standard reused in the current 22.",
       "publicRightsBasis": "Copyright-owner authorization for public 0BSD release, 2026-08-06.",
       "sha256": "9283c1ccc0c501c84078878c9a11c4ba5fee56a56ff2a1f9b1cf6d751452ee18",
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/03-spotty-took-the-edge-off.png",
@@ -891,7 +971,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/04-jenai-pillow-under-inevitable.png",
@@ -907,7 +988,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/04-kumail-applauded-thought.png",
@@ -915,15 +997,16 @@
       "label": "kumail applauded thought",
       "kind": "illustration",
       "tier": "current-execution-authority",
-      "status": "locked-current-final",
-      "statusAuthority": "Current production record; Spotty 01 corrected 2026-08-06.",
-      "sourceLineage": "Current 22-final family rebuild.",
+      "status": "owner-approved-current-final",
+      "statusAuthority": "Owner gate recorded 2026-07-30 in QA-OWNER-GATES-2026-07-30.md.",
+      "sourceLineage": "Current Kumail lower-body repair approved and promoted.",
       "publicRightsBasis": "Copyright-owner authorization for public 0BSD release, 2026-08-06.",
       "sha256": "906f39794be3fc1bb9fd822e67d772eb88496251c8b24cb5d03b89dfe7d93589",
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22/04-manali-cooled-urgency.png",
@@ -939,7 +1022,8 @@
       "width": 1086,
       "height": 1448,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": true
     },
     {
       "path": "assets/references/approved-22-contact-sheet.png",
@@ -948,14 +1032,15 @@
       "kind": "contact-sheet",
       "tier": "current-execution-scan",
       "status": "derived-reference-scan",
-      "statusAuthority": "Derived from bundled full-resolution references.",
-      "sourceLineage": "Deterministic contact sheet; full-size source files remain authority.",
+      "statusAuthority": "Derived from bundled canonical references.",
+      "sourceLineage": "Generated contact sheet; canonical source files remain authority.",
       "publicRightsBasis": "Copyright-owner authorization for public 0BSD release, 2026-08-06.",
       "sha256": "9ea1ae1a6450188205b8d4964cd797fdb3984c8198eb5068948e1f4ba3fbdef5",
       "width": 1068,
       "height": 2276,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": false
     },
     {
       "path": "assets/references/website-30-contact-sheet.png",
@@ -964,14 +1049,15 @@
       "kind": "contact-sheet",
       "tier": "approved-website-scan",
       "status": "derived-reference-scan",
-      "statusAuthority": "Derived from bundled full-resolution references.",
-      "sourceLineage": "Deterministic contact sheet; full-size source files remain authority.",
+      "statusAuthority": "Derived from bundled canonical references.",
+      "sourceLineage": "Generated contact sheet; canonical source files remain authority.",
       "publicRightsBasis": "Copyright-owner authorization for public 0BSD release, 2026-08-06.",
       "sha256": "df12436f4429a3d8fb81f9e6651de8e41775be85697da71b27f6e782e2301e49",
       "width": 1204,
       "height": 1992,
       "mode": "rgb",
-      "bitDepth": 8
+      "bitDepth": 8,
+      "c2paJumbMarker": false
     }
   ]
 }

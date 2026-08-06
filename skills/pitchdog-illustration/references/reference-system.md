@@ -5,7 +5,7 @@
 - Precedence
 - Bundled asset map
 - Golden Six reading
-- Current approved set
+- Current locked set
 - Approved website set
 - Selection protocol
 - Public boundary
@@ -16,7 +16,7 @@ Use references as evidence, not recipes.
 
 1. Latest explicit owner correction, current written identity lock, and current
    same-subject final.
-2. Current approved-22 visual family and current written visual law.
+2. Current locked 22 visual family and current written visual law.
 3. Golden Six conceptual ancestry for wit and editorial economy.
 4. Approved website-30 set for breadth, placement history, and collision checks.
 5. General editorial-illustration knowledge.
@@ -30,14 +30,24 @@ assets/references/
 ├── approved-22-contact-sheet.png
 ├── website-30-contact-sheet.png
 ├── approved-22/
-│   └── 22 full-resolution current finals
+│   └── 22 current-final visual references
 ├── website-30/
-│   └── 30 full-resolution owner-approved website illustrations
+│   └── 30 owner-approved website visual references
 └── golden-six/
-    └── 6 full-resolution conceptual ancestors
+    └── 6 conceptual visual ancestors
 ```
 
-`approved-22-contact-sheet.png` is the fast family scan. Full-size files are the real inspection authority.
+`approved-22-contact-sheet.png` is the fast family scan. Individual files are
+the inspection authority. The canonical repository preserves source-resolution
+pixels; the ChatGPT upload package carries display-resolution derivatives of
+all 58 works and retains each source SHA-256 in the manifest.
+
+Read `assets/reference-manifest.json` before inspection. `approved-22/` is a
+stable path name, not an assertion that every included file is owner-accepted.
+In the portable profile, inspect references as display calibration; follow
+`canonicalPixelSource` when exact pixels, identity, colour, or artefacts decide
+the verdict. Actual-pixel size means 100% of the available file, not necessarily
+canonical source resolution.
 
 ## Golden Six reading
 
@@ -75,7 +85,7 @@ The Golden Six established wit, a compact visual premise, imperfect ink, and the
 
 No Golden Six composition is a template. Their nouns, silhouettes, and captions must not be reused by substitution.
 
-## Current approved set
+## Current locked set
 
 The 22 current finals are the active quality gate. They establish:
 
@@ -92,7 +102,7 @@ The 22 current finals are the active quality gate. They establish:
 
 The set includes four Manali, four Jenai, four Kumail, three Spotty, three Luna, three Juno, and one three-sisters illustration.
 
-Use same-subject approved files first for identity. Use different-subject files to prove the style can survive varied bodies, coats, objects, and emotional temperatures.
+Use same-subject current files first for identity. Use different-subject files to prove the style can survive varied bodies, coats, objects, and emotional temperatures.
 
 ## Approved website set
 
@@ -110,6 +120,19 @@ warm cast, scene density, caption dependence, generic dog, or other visible drif
 merely because an image was approved in its original context. Read [website
 approved catalog](website-approved-catalog.md).
 
+Two files have a stricter machine-readable current-use boundary in
+`reference-manifest.json`:
+
+- `28-go-get-em.png` is dated Process/metaphor evidence only. Its Juno predates
+  the locked sisters scale and cannot be reused unchanged. If the Process coda
+  still needs art, rebuild the sisters at Spotty `1.0`, Luna `1.0`, Juno `1.1`.
+- `30-lost-page.png` keeps a strong 404 relationship, but its broad generic Juno
+  is not current likeness authority. Preserve the missing-corner idea; rebuild
+  Juno from current `approved-22` identity evidence before production use.
+
+Historical owner approval remains true. It does not make stale identity pixels
+current. Never silently replace these immutable dated files.
+
 ## Selection protocol
 
 ### Before concept work
@@ -117,7 +140,7 @@ approved catalog](website-approved-catalog.md).
 1. Open the contact sheet.
 2. Scan both approved catalogs for repeated objects, verbs, physical turns,
    colours, silhouettes, and site jobs to avoid.
-3. Open two to four nearby finals at full size.
+3. Open two to four nearby finals at actual-pixel size for the active profile.
 
 ### Before generation
 
@@ -140,7 +163,7 @@ Compare candidate against:
 - one Golden Six ancestor;
 - contact sheet at series scale.
 
-Full-size inspection catches identity and artefacts. Contact-sheet inspection catches samey composition, colour drift, and accidental hierarchy.
+Actual-pixel inspection catches identity and artefacts. Contact-sheet inspection catches samey composition, colour drift, and accidental hierarchy. Escalate to the canonical profile when a portable derivative cannot settle a pixel-level question.
 
 ## Public boundary
 

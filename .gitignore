@@ -1,6 +1,7 @@
 .DS_Store
 __MACOSX/
-.venv/
+.venv*/
 dist/
+dist-*/
 *.pyc
 __pycache__/

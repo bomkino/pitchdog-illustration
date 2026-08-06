@@ -1,12 +1,20 @@
 # Approved website catalog
 
-These 30 illustrations were owner-approved on 24 July 2026. Full-resolution
-files live in `assets/references/website-30/`.
+These 30 illustrations were owner-approved on 24 July 2026. The canonical
+profile stores source-resolution files in `assets/references/website-30/`;
+`chatgpt-portable` stores max-800 px sRGB display derivatives at the same paths
+with immutable canonical receipts.
 
 Use this catalog before proposing more website work. It is a collision map and
 reuse library, not permission to copy a composition. Exact placements were
 proposals in a dated site plan; verify the current website authority and
 breakpoints before binding anything.
+
+Current-use exception: `28-go-get-em.png` and `30-lost-page.png` remain truthful
+owner-approved history, but their pre-rebuild Juno is prohibited as current
+identity or scale authority. Reuse only the narrative job or core relationship;
+rebuild Juno from the current 22 before production. The manifest records the
+limitation and reuse condition on both files.
 
 | File | Headline | Visible relationship | Dated placement territory |
 | --- | --- | --- | --- |
@@ -37,9 +45,9 @@ breakpoints before binding anything.
 | `25-why-pitch-dog.png` | Why pitch.dog? | Spotty nudges open a gate made from presentation pages and looks back once. | Our Story name |
 | `26-bomkino-grew-first-roots.png` | bomkino grew the first roots. | A hand-cranked cinema camera has bellows made from three pitch pages. | Our Story bomkino |
 | `27-already-in-the-room.png` | Already in the room. | An open door and six distinct pairs of lived-in shoes reveal who already gathered. | Team wider crew |
-| `28-go-get-em.png` | Go Get 'Em. | A client leaves with a deck while three sisters sleep beneath one shared pennant. | Process farewell |
+| `28-go-get-em.png` | Go Get 'Em. | A client leaves with a deck while three sisters sleep beneath one shared pennant. Legacy Juno scale; metaphor/placement evidence only. | Process farewell; rebuild if retained |
 | `29-bring-the-unfinished-thought.png` | Bring us the unfinished thought. | A paper plane flies although only its nose and one wing are folded. | Contact hero |
-| `30-lost-page.png` | Lost? Even good dogs wander off sometimes. | A page is missing one corner; Juno holds the exact corner and looks at the evidence. | 404 recovery |
+| `30-lost-page.png` | Lost? Even good dogs wander off sometimes. | A page is missing one corner; Juno holds the exact corner and looks at the evidence. Legacy generic Juno; preserve relationship, rebuild identity. | 404 recovery; rebuild Juno |
 
 ## Collision index
 
