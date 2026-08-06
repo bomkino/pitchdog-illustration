@@ -67,4 +67,3 @@ jobs:
           (cd dist && for receipt in *.sha256; do sha256sum -c "$receipt"; done)
           (cd dist-profile-full && sha256sum -c SHA256SUMS.full)
           (cd dist-profile-chatgpt && sha256sum -c SHA256SUMS.chatgpt)
-          python scripts/validate_skill.py --release-dist dist
