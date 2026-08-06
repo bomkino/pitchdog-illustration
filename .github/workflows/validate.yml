@@ -35,6 +35,11 @@ jobs:
           python scripts/package_skill.py --dist dist-repeat
           python scripts/package_skill.py --profile full --dist dist-profile-full
           python scripts/package_skill.py --profile chatgpt --dist dist-profile-chatgpt
+      - name: OpenAI quick validator — packaged portable
+        run: |
+          portable_dir="$(mktemp -d)"
+          unzip -q dist/pitchdog-illustration.zip -d "$portable_dir"
+          python /tmp/openai-skills/skills/.system/skill-creator/scripts/quick_validate.py "$portable_dir/pitchdog-illustration"
       - name: Verify reproducibility, twin archives, and receipts
         run: |
           cmp dist/pitchdog-illustration.zip dist/pitchdog-illustration.skill
@@ -44,13 +49,22 @@ jobs:
           cmp dist/pitchdog-illustration-full.zip dist-repeat/pitchdog-illustration-full.zip
           cmp dist/pitchdog-illustration-full.skill dist-repeat/pitchdog-illustration-full.skill
           cmp dist/SHA256SUMS dist-repeat/SHA256SUMS
+          cmp dist/pitchdog-illustration-full.zip dist-profile-full/pitchdog-illustration-full.zip
+          cmp dist/pitchdog-illustration-full.skill dist-profile-full/pitchdog-illustration-full.skill
+          cmp dist/pitchdog-illustration.zip dist-profile-chatgpt/pitchdog-illustration.zip
+          cmp dist/pitchdog-illustration.skill dist-profile-chatgpt/pitchdog-illustration.skill
           test "$(wc -c < dist/pitchdog-illustration.zip)" -lt 25000000
           test "$(find dist -maxdepth 1 -name '*.sha256' | wc -l)" -eq 4
           test -f dist-profile-full/SHA256SUMS.full
           test ! -e dist-profile-full/SHA256SUMS
+          test ! -e dist-profile-full/pitchdog-illustration.zip
+          test "$(find dist-profile-full -maxdepth 1 -type f | wc -l)" -eq 5
           test -f dist-profile-chatgpt/SHA256SUMS.chatgpt
           test ! -e dist-profile-chatgpt/SHA256SUMS
+          test ! -e dist-profile-chatgpt/pitchdog-illustration-full.zip
+          test "$(find dist-profile-chatgpt -maxdepth 1 -type f | wc -l)" -eq 5
           (cd dist && sha256sum -c SHA256SUMS)
           (cd dist && for receipt in *.sha256; do sha256sum -c "$receipt"; done)
           (cd dist-profile-full && sha256sum -c SHA256SUMS.full)
           (cd dist-profile-chatgpt && sha256sum -c SHA256SUMS.chatgpt)
+          python scripts/validate_skill.py --release-dist dist
