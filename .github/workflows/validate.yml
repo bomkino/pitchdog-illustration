@@ -11,6 +11,62 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: python -m pip install -r requirements-dev.txt
+      - name: Rebuild reference receipts
+        run: |
+          python scripts/build_asset_manifest.py
+          git diff --exit-code -- skills/pitchdog-illustration/assets/reference-manifest.json skills/pitchdog-illustration/assets/REFERENCE-PACK.sha256
+      - name: Validate repository
+        run: python scripts/validate_skill.py
+      - name: OpenAI quick validator
+        run: |
+          git clone --filter=blob:none https://github.com/openai/skills.git /tmp/openai-skills
+          git -C /tmp/openai-skills checkout 49f948faa9258a0c61caceaf225e179651397431
+          python /tmp/openai-skills/skills/.system/skill-creator/scripts/quick_validate.py skills/pitchdog-illustration
+      - name: Package and round trip twice
+        run: |
+          python scripts/package_skill.py --dist dist
+          python scripts/package_skill.py --dist dist-repeat
+          python scripts/package_skill.py --profile full --dist dist-profile-full
+          python scripts/package_skill.py --profile chatgpt --dist dist-profile-chatgpt
+      - name: Verify reproducibility, twin archives, and receipts
+        run: |
+          cmp dist/pitchdog-illustration.zip dist/pitchdog-illustration.skill
+          cmp dist/pitchdog-illustration-full.zip dist/pitchdog-illustration-full.skill
+          cmp dist/pitchdog-illustration.zip dist-repeat/pitchdog-illustration.zip
+          cmp dist/pitchdog-illustration.skill dist-repeat/pitchdog-illustration.skill
+          cmp dist/pitchdog-illustration-full.zip dist-repeat/pitchdog-illustration-full.zip
+          cmp dist/pitchdog-illustration-full.skill dist-repeat/pitchdog-illustration-full.skill
+          cmp dist/SHA256SUMS dist-repeat/SHA256SUMS
+          test "$(wc -c < dist/pitchdog-illustration.zip)" -lt 25000000
+          test "$(find dist -maxdepth 1 -name '*.sha256' | wc -l)" -eq 4
+          test -f dist-profile-full/SHA256SUMS.full
+          test ! -e dist-profile-full/SHA256SUMS
+          test -f dist-profile-chatgpt/SHA256SUMS.chatgpt
+          test ! -e dist-profile-chatgpt/SHA256SUMS
+          (cd dist && sha256sum -c SHA256SUMS)
+          (cd dist && for receipt in *.sha256; do sha256sum -c "$receipt"; done)
+          (cd dist-profile-full && sha256sum -c SHA256SUMS.full)
+          (cd dist-profile-chatgpt && sha256sum -c SHA256SUMS.chatgpt)
+name: validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
