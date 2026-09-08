@@ -1,4 +1,8 @@
-# Evaluation report
+# Evaluation report — v1.0.1 historical receipt
+
+This dated report preserves the original counts, hashes, and observations.
+It does not certify later releases. See the [current release](https://github.com/bomkino/pitchdog-illustration/releases/latest)
+for its package receipts and checks; v1.0.2 contains 46 evaluation specifications.
 
 Date: 2026-08-06
 Release target: v1.0.1
@@ -30,8 +34,8 @@ no cross-platform byte-identity claim is made.
 
 CI therefore proves reproducibility by comparing two builds made on the same
 Ubuntu runner. It does not compare those bytes with the macOS-built public
-release receipts. `validate_skill.py --release-dist dist` is the explicit
-release-machine gate for the published hashes.
+release receipts. `validate_skill.py --release-dist dist` checks the pinned
+v1.0.1 published hashes. It is not a general validator for newer release archives.
 
 ## Behavioral coverage
 

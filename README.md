@@ -86,21 +86,16 @@ The package follows the open [Agent Skills specification](https://agentskills.io
 
 Current release: [v1.0.2 notes](https://github.com/bomkino/pitchdog-illustration/releases/tag/v1.0.2).
 
-### ChatGPT desktop
-
-1. Download [`pitchdog-illustration.skill`](https://github.com/bomkino/pitchdog-illustration/releases/latest/download/pitchdog-illustration.skill).
-2. Open it with ChatGPT.
-3. Review the scan and install.
-
-This is the documented/intended desktop flow. Native desktop installation was
-not independently receipt-verified for v1.0.1; web / Cloud Work was.
-
-### ChatGPT web / Cloud Work
+### ChatGPT
 
 1. Download [`pitchdog-illustration.zip`](https://github.com/bomkino/pitchdog-illustration/releases/latest/download/pitchdog-illustration.zip).
-2. Open **Profile → Skills → Create → Upload from your computer**. Some
-   workspaces expose the same page under **Plugins → Skills**.
-3. Review the scan and install.
+2. Open **Plugins → Skills → Create → Upload from your computer**.
+3. Review the scan and confirm the skill is available in your client.
+
+Availability, installation, and syncing vary by product, surface, and workspace
+settings. See [OpenAI’s Skills guide](https://help.openai.com/en/articles/20001066).
+The `.skill` download contains identical bytes for clients that accept that
+extension. A release download does not prove installation or invocation.
 
 The repository keeps the default ChatGPT-portable archives below 25,000,000
 bytes, a budget based on the Skills uploader gate observed in the tested
@@ -111,9 +106,9 @@ derivatives plus each immutable canonical source SHA-256. Nothing is omitted. Do
 or [`pitchdog-illustration-full.zip`](https://github.com/bomkino/pitchdog-illustration/releases/latest/download/pitchdog-illustration-full.zip)
 for the full-resolution archival edition.
 
-OpenAI documents separate desktop and web installation. Workspace permissions
-may control uploading, sharing, and installation. See OpenAI's current
-[Skills in ChatGPT](https://help.openai.com/en/articles/20001066) guide.
+Use the release’s `SHA256SUMS` or individual `.sha256` sidecars to check
+downloads. The [v1.0.1 evaluation report](docs/evaluation-report.md) is historical;
+current release checks are recorded with the [latest release](https://github.com/bomkino/pitchdog-illustration/releases/latest).
 
 ## Use
 
@@ -161,8 +156,13 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements-dev.txt
 .venv/bin/python scripts/validate_skill.py
 .venv/bin/python scripts/package_skill.py
-.venv/bin/python scripts/validate_skill.py --release-dist dist
+(cd dist && shasum -a 256 -c SHA256SUMS)
 ```
+
+The packager validates both extracted profiles and compares every packaged
+file with its source. `validate_skill.py --release-dist` checks the pinned
+**v1.0.1** archives; use it only for that historical receipt. New releases use
+their own generated checksum manifests.
 
 The packager creates a ChatGPT-portable pair within the 25,000,000-byte
 repository budget and a full-resolution archival pair. Builds are reproducible

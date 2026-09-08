@@ -8,6 +8,8 @@
   removing it as an incidental edit.
 - Adds a focused evaluation for new work versus surgical source edits.
 - Preserves all reference images, identity rules, and provenance manifests.
+- Corrects current-package validation commands, installation guidance, and
+  historical release-report labels.
 
 ## 1.0.1 — 2026-08-06
 

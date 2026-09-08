@@ -101,7 +101,7 @@ reference-pack manifests carry the corrected production truth.
 - [Agent Skills best practices](https://agentskills.io/skill-creation/best-practices):
   concise routing, shallow references, examples, and validation.
 - [OpenAI Skills in ChatGPT](https://help.openai.com/en/articles/20001066):
-  upload, scanning, separate desktop/web installation, and workspace gates.
+  upload, scanning, product/surface availability, and workspace gates.
 - [OpenAI GPT Image prompting guide](https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide):
   labelled reference roles, invariants, exclusions, and bounded revisions.
 - [OSI 0BSD](https://opensource.org/license/0bsd): permissive public licence.
