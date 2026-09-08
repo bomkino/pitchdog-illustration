@@ -84,7 +84,7 @@ npx skills add bomkino/pitchdog-illustration \
 
 The package follows the open [Agent Skills specification](https://agentskills.io/specification).
 
-Current release: [v1.0.1 notes](docs/releases/v1.0.1.md).
+Current release: [v1.0.2 notes](https://github.com/bomkino/pitchdog-illustration/releases/tag/v1.0.2).
 
 ### ChatGPT desktop
 

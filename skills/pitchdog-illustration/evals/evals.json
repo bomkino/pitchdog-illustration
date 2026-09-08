@@ -362,6 +362,14 @@
       "must": ["use qualitative evidence", "judge specificity attention wit warmth and earned restraint", "require every gate"],
       "must_not": ["invent numerical soul score", "average away a fatal failure"],
       "failure_caught": "Pseudo-metrics replace taste and judgment"
+    },
+    {
+      "id": "no-additive-texture",
+      "prompt": "Use $pitchdog-illustration. Draft a production prompt for one new illustration using an approved style reference that has quiet paper grain. The current direction is a clean field with no added grain. Also state how to handle that texture if the task instead asks for a surgical edit of the approved original.",
+      "expected_mode": "prompt-only",
+      "must": ["specify no added grain noise or paper-texture overlay for the new illustration", "preserve intrinsic approved-source texture during the surgical edit without amplification", "derive handmade quality from ink and physical relationships", "return a prompt without generating an image"],
+      "must_not": ["copy reference grain into new work", "require subtle paper tooth", "denoise or replace an approved original without authority"],
+      "failure_caught": "An older reference or prompt recipe reinstates added grain, or a new material rule damages approved source art"
     }
   ]
 }

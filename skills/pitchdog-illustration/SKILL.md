@@ -131,7 +131,7 @@ privacy, and package integrity using [production and provenance](references/prod
 Every current-style image needs:
 
 - one full-bleed cool pale pastel field;
-- subtle paper grain that disappears before it performs;
+- a clean field without added grain or noise;
 - sparse, slightly imperfect near-black ink;
 - one restrained signal accent with semantic work;
 - a small lower or lower-middle motif;
@@ -143,6 +143,10 @@ Every current-style image needs:
 - two-second comprehension without caption rescue.
 
 Identity colours may remain truthful; they are not permission for decorative palette growth. White may exist inside a subject or object, never as a floating stage or card.
+
+Preserve texture already intrinsic to approved source art. Do not add, amplify,
+or copy that texture into new work; its presence in an older reference is not a
+requirement. Do not alter approved originals to make them conform retroactively.
 
 Reject yellow, amber, sepia, mustard, or cream AI cast; glossy vector polish; 3D volume; pet-portrait realism; cinematic light; scenery; multiple jokes; filler; arrows; symbol soup; generic cuteness; greeting-card sentiment; corporate mascot energy; and children's-book sweetness.
 
@@ -204,7 +208,7 @@ Run these gates:
 
 - **Metaphor:** one visible impossible relationship; no caption dependency.
 - **Identity:** the specific subject survives at thumbnail and actual-pixel size.
-- **Style:** current field, ink, accent, grain, restraint, and negative space.
+- **Style:** current field, ink, accent, material restraint, and negative space.
 - **Composition:** one remembered silhouette; no scenery or filler.
 - **Soul:** specific attention, emotional truth, wit, warmth, and an earned stop.
 - **Technical:** clean output, intended dimensions, no stray text, marks, limbs, halos, or crop failures.

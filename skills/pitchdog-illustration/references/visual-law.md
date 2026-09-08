@@ -4,7 +4,7 @@
 
 - Target
 - Canvas and composition
-- Field, ink, grain, and accent
+- Field, ink, material, and accent
 - Character and object rendering
 - Visual physics
 - Hard exclusions
@@ -44,7 +44,7 @@ Use these as cool starting points, not a mandatory rotation:
 
 Adjust for the destination and approved reference. Preserve a cool or neutral paper impression. Reject any amber, cream, sepia, mustard, dirty-beige, or yellow AI cast unless an explicit owner-approved exception changes the law.
 
-## Field, ink, grain, and accent
+## Field, ink, material, and accent
 
 ### Field
 
@@ -59,12 +59,14 @@ Adjust for the destination and approved reference. Preserve a cool or neutral pa
 - Let filled near-black shapes appear only where they help the metaphor or decisive silhouette.
 - Avoid uniform Bézier smoothness, perfect geometric corners, glossy contour, airbrush shading, and faux-pencil noise on every edge.
 
-### Grain
+### Material
 
-- Use subtle paper tooth across the field.
-- Grain must remain quiet at normal viewing size.
-- Never use texture to hide weak structure.
-- Run a texture-off thought test: the image must still work without it.
+- Do not add grain, noise, paper fibres, or distressed overlays to new work.
+- Carry the handmade quality through pressure-aware ink, scale, contact, and
+  the physical relationship, not a texture layer.
+- Preserve texture intrinsic to approved source art without amplifying it.
+  Older reference texture is not a requirement for a new image.
+- Do not denoise or otherwise alter approved originals without edit authority.
 
 ### Accent
 
@@ -119,6 +121,7 @@ Reject immediately:
 - View at `100%`: identity cues and line imperfection survive; no stray artefacts.
 - Convert mentally to grayscale: relationship and hierarchy remain.
 - Remove accent mentally: image still makes sense; accent deepens rather than rescues it.
-- Remove grain mentally: structure still works.
+- Check material against the source: no added or amplified texture; approved
+  source art remains intact.
 - Cover the caption: metaphor remains visible.
 - Compare against current approved contact sheet: same family, new thought.

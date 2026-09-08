@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.2 — 2026-09-08
+
+- Removes mandatory added grain from new illustrations across visual law,
+  prompting, refinement, and QA guidance.
+- Preserves texture intrinsic to approved source art without amplifying or
+  removing it as an incidental edit.
+- Adds a focused evaluation for new work versus surgical source edits.
+- Preserves all reference images, identity rules, and provenance manifests.
+
 ## 1.0.1 — 2026-08-06
 
 - Added a same-environment reproducible ChatGPT-portable package within a
