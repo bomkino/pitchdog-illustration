@@ -140,7 +140,8 @@
 
 **Failure:** surface conceals weak structure.
 
-**Repair:** run texture-off test; keep only quiet tooth.
+**Repair:** remove task-added texture. Preserve intrinsic texture in approved
+source art without amplification; do not denoise or replace an approved original.
 
 ### Empty elegance
 

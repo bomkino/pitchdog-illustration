@@ -73,7 +73,8 @@ If identity is generic but the visual system is correct, regenerate from stronge
 - Roughly 80% calm negative space remains.
 - Near-black line is sparse and slightly imperfect.
 - One signal accent has one semantic job.
-- Grain is quiet.
+- No grain, noise, or pseudo-texture was added or amplified; any texture intrinsic
+  to approved source art is preserved.
 - No glossy vector, 3D, watercolour, cinematic light, vignette, glow, or shadow theatre.
 - No scenery, filler, extra props, marks, text, border, or watermark.
 

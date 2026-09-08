@@ -50,7 +50,7 @@ Locked visual relationship:
 Emotional truth: [one plain sentence].
 
 Composition:
-Full-bleed [cool pastel] field with subtle paper grain.
+Full-bleed [cool pastel] field without added grain, noise, or paper texture.
 At least [80%] calm negative space.
 One tiny lower-[position] motif.
 [Exact actor/object placement, relative scale, gaze, contact, and silhouette].
@@ -65,9 +65,10 @@ One familiar thing, one impossible behaviour, one ordinary act, one remembered s
 
 Preserve:
 [Identity, scale, field family, concept, framing, and any approved elements].
+For an edit, preserve texture already intrinsic to the approved source without amplifying it.
 
 Exclude:
-White stage; yellow/amber/sepia cast; scenery; extra props; arrows; labels; text; symbols; glow; shadows; cinematic lighting; realism; glossy vector line; 3D; watercolour; generic cuteness; mascot pose; decorative marks.
+White stage; yellow/amber/sepia cast; added grain or noise; paper-texture overlays; scenery; extra props; arrows; labels; text; symbols; glow; shadows; cinematic lighting; realism; glossy vector line; 3D; watercolour; generic cuteness; mascot pose; decorative marks.
 
 Output:
 One candidate only. Opaque full-bleed image. No border, logo, watermark, or caption.
